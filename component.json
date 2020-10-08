@@ -1,0 +1,22 @@
+{
+  "title": "Personio Transformation",
+  "description": "Generic Data Transformation Component",
+  "actions": {
+    "transformEmployeeFromOih": {
+      "title": "Transform a Employee from OIH",
+      "description": "Transform the incoming data from OIH",
+      "main": "./lib/actions/transformEmployeeFromOih.js",
+      "metadata": {
+        "out": {}
+      }
+    },
+    "transformEmployeeToOih": {
+      "title": "Transform a Employee to OIH",
+      "description": "Transform the incoming data to OIH",
+      "main": "./lib/actions/transformEmployeeToOih.js",
+      "metadata": {
+        "out": {}
+      }
+    }
+  }
+}
